@@ -1,0 +1,36 @@
+.container{
+    margin-top: 40px;
+    width: 400px;
+    height: 500px;
+    border-radius: 2%;
+    padding: 4%;
+    color: Black;
+    
+}
+.q{
+    background-image: url("https://avatars.mds.yandex.net/i?id=43972f6df518aa5c0a3b7b1f1e5a919fee24f891-7755802-images-thumbs&n=13");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.row{
+    color:black;
+    font-size: larger;
+}
+input{
+    border-radius: 10px;
+    border-color: #E69A8DFF;
+    width: 250px;
+    height: 30px;
+}
+button{
+    border-radius: 10px;
+    width: 75px;
+    height: 30px;
+}
+button:hover:not(.active){
+    border-radius: 10px;
+    width: 75px;
+    height: 30px;
+    background-color: aqua;
+}
